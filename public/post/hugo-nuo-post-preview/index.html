@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hugo 主题 Nuo 文章样式预览 &middot; Xinbin Huang</title>
+        <meta name="description" content="这篇文章集中说明本人博客主题所支持的 Markdown 语法和 Hugo Shortcodes 插件，你也可以在这里预览到他们的样子。如果你不喜欢某些部分的样式，可以去修改 content.scss 和 shortcodes.scss 这两个文件。预告一下，我所用的这个名为 Nuo 的 Hugo 也将于近期发布，敬请期待。
+
+">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.36" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="/dist/styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+    </head>
+    <body>
+        
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a title="Xinbin H" href="/">Xinbin H</a>
+                            </h1>
+                        
+                        <a class="button-square" href="/index.xml"><i class="fa fa-rss"></i></a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a title="About" href="/about/">About</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a title="Home" href="/">Home</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a title="Posts" href="/post/">Posts</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a title="Projects" href="/projects/">Projects</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a title="Links" href="/links/">Links</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a title="Tags" href="/tags/">Tags</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a title="Categories" href="/categories/">Categories</a>
+    </li>
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Hugo 主题 Nuo 文章样式预览</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2013-07-17" itemprop="datePublished">Wed, Jul 17, 2013</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Xinbin Huang</a>
+            </span>
+        </span>
+    </p>
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>这篇文章集中说明本人博客主题所支持的 Markdown 语法和 Hugo Shortcodes 插件，你也可以在这里预览到他们的样子。如果你不喜欢某些部分的样式，可以去修改 <code>content.scss</code> 和 <code>shortcodes.scss</code> 这两个文件。预告一下，我所用的这个名为 <code>Nuo</code> 的 <code>Hugo</code> 也将于近期发布，敬请期待。</p>
+
+<p></p>
+
+<h2 id="1-标题">1. 标题</h2>
+
+<h1 id="h1">H1</h1>
+
+<h2 id="h2">H2</h2>
+
+<h3 id="h3">H3</h3>
+
+<h4 id="h4">H4</h4>
+
+<h5 id="h5">H5</h5>
+
+<h6 id="h6">H6</h6>
+
+<h2 id="2-段落">2. 段落</h2>
+
+<p>使用单引号 <code>*</code> 或者单下划线 <code>_</code> 标记 <em>斜体强调</em> 或者 <em>斜体强调</em></p>
+
+<p>使用两个引号 <code>**</code> 或者两个下划线 <code>__</code> 标记 <strong>加粗强调</strong> 或者 <strong>加粗强调</strong></p>
+
+<p>引号和下划线可叠加使用 → <strong>只是加粗 <em>斜体并加粗</em></strong></p>
+
+<p>使用两个波浪线 <code>~~</code> 标记 <del>已删除文字</del></p>
+
+<p>插入文字暂无 <code>Markdown</code> 标记，直接使用 <code>HTML</code> 标签 <code>&lt;ins&gt;</code> 标记 <ins>插入文字</ins></p>
+
+<p>行内代码使用反引号标记 → <code>print(&quot;hello world&quot;)</code></p>
+
+<p>上标 X<sup>2</sup> / 下标 X<sub>2</sub></p>
+
+<p>按键 <kbd>Ctrl</kbd></p>
+
+<p>外链 <a href="https://chekun.me">chekun&rsquo;s blog</a></p>
+
+<p>页面内段落 <a href="#section-07">图片</a></p>
+
+<p><em>注意：你可以通过 <code>{#section-id}</code> 方式自定义段落锚点</em></p>
+
+<p>参考资料 <sup><a href="#ref01">[1]</a></sup><sup><a href="#ref02">[2]</a></sup></p>
+
+<p>数字引用 <a href="1">编号为 1 的链接</a></p>
+
+<h2 id="3-列表">3. 列表</h2>
+
+<p>以下的无序、有序和任务列表均支持二级嵌套，不建议使用二级以上嵌套。</p>
+
+<h3 id="3-1-无序列表">3.1 无序列表</h3>
+
+<ul>
+<li>无序列表
+
+<ul>
+<li>嵌套的无序列表</li>
+<li>嵌套的无序列表</li>
+</ul></li>
+<li>无序列表
+
+<ol>
+<li>嵌套的有序列表</li>
+<li>嵌套的有序列表</li>
+</ol></li>
+<li>无序列表</li>
+</ul>
+
+<h3 id="3-2-有序列表">3.2 有序列表</h3>
+
+<ol>
+<li>有序列表
+
+<ol>
+<li>嵌套的有序列表</li>
+<li>嵌套的有序列表</li>
+</ol></li>
+<li>有序列表
+
+<ul>
+<li>嵌套的无序列表</li>
+<li>嵌套的无序列表</li>
+</ul></li>
+<li>有序列表</li>
+</ol>
+
+<h3 id="3-3-定义列表">3.3 定义列表</h3>
+
+<dl>
+<dt>CSS</dt>
+<dd>层叠样式表</dd>
+</dl>
+
+<h3 id="3-4-任务列表">3.4 任务列表</h3>
+
+<ul class="task-list">
+<li><label><input type="checkbox" disabled class="task-list-item"> Cmd Markdown 开发
+
+<ul class="task-list">
+<li><label><input type="checkbox" disabled class="task-list-item"> 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> 支持以 PDF 格式导出文稿</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> 新增Todo列表功能 <a href="https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments">语法参考</a></label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> 改进 LaTex 功能</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> 修复 LaTex 公式渲染问题</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> 新增 LaTex 公式编号功能 <a href="http://docs.mathjax.org/en/latest/tex.html#tex-eq-numbers">语法参考</a></label></li>
+</ul></label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> 七月旅行准备
+
+<ul class="task-list">
+<li><label><input type="checkbox" disabled class="task-list-item"> 准备邮轮上需要携带的物品</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> 浏览日本免税店的物品</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> 购买蓝宝石公主号七月一日的船票</label></li>
+</ul></label></li>
+</ul>
+
+<h2 id="4-引用">4. 引用</h2>
+
+<blockquote>
+<p>野火烧不尽，春风吹又生。</p>
+
+<p><cite>&ndash; 白居易《赋得古原草送别》</cite></p>
+</blockquote>
+
+<h2 id="5-代码">5. 代码</h2>
+
+<p>以本站的一段 <code>JavaScript</code> 代码做演示。</p>
+
+<pre><code class="language-javascript">// Initialize video.js player
+if (document.getElementById('my-player') !== null) {
+  /* eslint-disable no-undef */
+  videojs('#my-player', {
+    aspectRatio: '16:9',
+    fluid: true,
+  });
+}
+</code></pre>
+
+<h2 id="6-分割线">6. 分割线</h2>
+
+<hr />
+
+<p>中间能写字的分割线，如果你修改了分割线中字的内容，请配合修改 <code>CSS</code> 样式。</p>
+
+<h2 id="section-07">7. 图片</h2>
+
+<p>不带标题的图片，如下图👇</p>
+
+<p><img src="/media/posts/hugo-nuo-post-preview/01.jpg" alt="这是一只梅花鹿" /></p>
+
+<p>带标题的图片，如下图👇</p>
+
+<p>{{% figure src=&ldquo;/media/posts/hugo-nuo-post-preview/01.jpg&rdquo; alt=&ldquo;这是一只梅花鹿&rdquo; title=&ldquo;显然，这是一只梅花鹿&rdquo; %}}</p>
+
+<h2 id="8-表格">8. 表格</h2>
+
+<p>使用 <code>Markdown</code> 画的表格，如下表👇</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">Tables</th>
+<th align="center">Are</th>
+<th align="right">Cool</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">col 3 is</td>
+<td align="center">right-aligned</td>
+<td align="right">$1600</td>
+</tr>
+
+<tr>
+<td align="left">col 2 is</td>
+<td align="center">centered</td>
+<td align="right">$12</td>
+</tr>
+
+<tr>
+<td align="left">zebra stripes</td>
+<td align="center">are neat</td>
+<td align="right">$1</td>
+</tr>
+</tbody>
+</table>
+
+<p>使用 <code>HTML</code> 画的表格，如下表👇</p>
+
+<p><em>注意：下表叠加应用了 <code>is-centered</code> <code>is-striped</code> <code>is-bordered</code> <code>is-narrow</code> 四种表格样式。</em></p>
+
+<table class="is-centered is-striped is-bordered is-narrow">
+  <tr>
+    <th rowspan="2">值班人员</th>
+    <th>星期一</th>
+    <th>星期二</th>
+    <th>星期三</th>
+  </tr>
+  <tr>
+    <td>李强</td>
+    <td>张明</td>
+    <td>王平</td>
+  </tr>
+</table>
+
+<h2 id="9-数学公式">9. 数学公式</h2>
+
+<p>主题使用了 <a href="https://www.mathjax.org/">MathJax</a> 开源库来实现对数学公式的支持，使用 <code>$$</code> 标记。</p>
+
+<p>$$ evidence_{i}=\sum_{j}W_{ij}x_{j}+b_{i} $$</p>
+
+<h2 id="10-jsfiddle">10. JSFiddle</h2>
+
+<p>引入 <a href="https://jsfiddle.net/">JSFiddle</a> 网站的代码范例，在主题目录 <code>layouts/shortcodes</code> 文件夹下的 <code>jsfiddle.html</code> 对该标签进行定义。</p>
+
+<p>{{% jsfiddle &ldquo;laozhu/L479wueo&rdquo; &ldquo;html,css,result&rdquo; %}}</p>
+
+<h2 id="11-codepen">11. Codepen</h2>
+
+<p>引入 <a href="https://codepen.io/">Code Pen</a> 网站的代码演示，在主题目录 <code>layouts/shortcodes</code> 文件夹下的 <code>codepen.html</code> 对该标签进行定义。</p>
+
+<p>{{% codepen &ldquo;RoaWdE&rdquo; &ldquo;🐍 Snake Rush&rdquo; &ldquo;laozhu&rdquo; &ldquo;Ritchie Zhu&rdquo; &ldquo;600&rdquo; %}}</p>
+
+<h2 id="12-声享-ppt">12. 声享 PPT</h2>
+
+<p>引入 <a href="https://ppt.baomitu.com/">声享</a> PPT 演示文稿，在主题目录 <code>layouts/shortcodes</code> 文件夹下的 <code>shengxiang.html</code> 对该标签进行定义。</p>
+
+<p>{{% shengxiang &ldquo;a8a49a00&rdquo; %}}</p>
+
+<h2 id="13-本地视频">13. 本地视频</h2>
+
+<p>主题使用了 <a href="http://videojs.com/">video.js</a> 播放视频文件，你还可以自己定义视频的封面，在主题目录 <code>layouts/shortcodes</code> 文件夹下的 <code>video.html</code> 对该标签进行定义。</p>
+
+<p>{{% video
+  &ldquo;/media/posts/hugo-nuo-post-preview/videojs.mp4&rdquo;
+  &ldquo;/media/posts/hugo-nuo-post-preview/videojs.webm&rdquo;
+  &ldquo;/media/posts/hugo-nuo-post-preview/videojs.ogv&rdquo; %}}</p>
+
+<h2 id="14-网易云音乐">14. 网易云音乐</h2>
+
+<p>主题文章中可以轻松插入 <a href="https://music.163.com/">网易云音乐</a> 的指定音乐，你可以根据需要将音乐设置为自动播放，在主题目录 <code>layouts/shortcodes</code> 文件夹下的 <code>music.html</code> 对该标签进行定义。</p>
+
+<p>{{% music &ldquo;3950552&rdquo; %}}</p>
+
+<h2 id="15-gist-代码片段">15. Gist 代码片段</h2>
+
+<p>除了本地的代码片段，主题中可使用 <a href="https://github.com/">GitHub</a> 的 <a href="https://gist.github.com/">Gist</a> 服务轻松插入代码片段。</p>
+
+<p>{{% gist &ldquo;laozhu&rdquo; &ldquo;8285349&rdquo; %}}</p>
+
+<h2 id="16-tweet">16. Tweet</h2>
+
+<p>由于不明原因可能无法访问。</p>
+
+<h2 id="17-youtube">17. YouTube</h2>
+
+<p>由于不明原因可能无法播放。</p>
+
+<p>{{% youtube &ldquo;w7Ft2ymGmfc&rdquo; %}}</p>
+
+<h2 id="18-instagram">18. Instagram</h2>
+
+<p>由于不明原因可能无法访问。</p>
+
+<h2 id="参考资料">参考资料</h2>
+
+<ol>
+<li><a id="ref01"><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown Cheatsheet</a></a></li>
+<li><a id="ref02"><a href="https://www.zybuluo.com/EncyKe/note/120103">Markdown 语法手册</a></a></li>
+</ol>
+</div>
+
+        <footer class="post-footer clearfix">
+    
+        <p class="post-tags">
+            <span>Tagged:</span>
+            
+            
+                <a href="/tags/markdown/">Markdown</a>, 
+            
+                <a href="/tags/theme/">Theme</a>, 
+            
+                <a href="/tags/hugo/">Hugo</a>
+            
+        </p>
+    
+
+    <div class="share">
+        
+            <a class="icon-twitter" href="https://twitter.com/share?text=Hugo%20%e4%b8%bb%e9%a2%98%20Nuo%20%e6%96%87%e7%ab%a0%e6%a0%b7%e5%bc%8f%e9%a2%84%e8%a7%88&url=%2fpost%2fhugo-nuo-post-preview%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fa fa-twitter"></i>
+                <span class="hidden">Twitter</span>
+            </a>
+        
+
+        
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=%2fpost%2fhugo-nuo-post-preview%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <i class="fa fa-facebook"></i>
+                <span class="hidden">Facebook</span>
+            </a>
+        
+
+        
+            <a class="icon-google-plus" href="https://plus.google.com/share?url=%2fpost%2fhugo-nuo-post-preview%2f"
+              onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+              <i class="fa fa-google-plus"></i>
+                <span class="hidden">Google+</span>
+            </a>
+        
+        
+    </div>
+</footer>
+
+        
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a title="Xinbin H" href="/">Xinbin H</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#">
+                        <i class="fa fa-angle-up"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2015 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="/js/jquery-1.11.3.min.js"></script>
+        <script src="/js/jquery.fitvids.js"></script>
+        
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        
+        
+        <script src="/js/scripts.js"></script>
+    </body>
+</html>
+
