@@ -101,13 +101,14 @@ url = "/about/"
 [[menu.main]]
 name = "posts"
 weight = 20
-identifier = "/posts/"
+identifier = "posts"
+url = "/posts/"
 
 [[menu.main]]
 name = "projects"
 weight = 30
-identifier = "/projects/"
-
+identifier = "projects"
+url = "/projects/"
 
 [blackfriday]
 hrefTargetBlank = true
